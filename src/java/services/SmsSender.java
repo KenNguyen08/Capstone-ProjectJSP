@@ -16,10 +16,10 @@ public class SmsSender {
 
     // Find your Account Sid and Auth Token at twilio.com/console
     private static final String ACCOUNT_SID
-            = "AC0f357c17e2dd6e0a6b65a08fa847e9b4";
+            = "*";
     private static final String AUTH_TOKEN
-            = "3f11860fb56a2ba024d418b037dc3b5c";
-    private static final String MY_PHONE_NUM = "+15873332747";
+            = "*";
+    private static final String MY_PHONE_NUM = "*";
     
     public static boolean confirm(String customerPhone) throws NullPointerException 
     {
